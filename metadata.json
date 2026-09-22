@@ -1,0 +1,6 @@
+{
+  "name": "Super Hisab",
+  "description": "Super Hisab - Retail store ledger with UPI payment QR generation, professional PDF statements, pending balance reminders, phone storage auto-export, Google Drive backup, and fast retail calculator. Developed by Sk Ajahar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

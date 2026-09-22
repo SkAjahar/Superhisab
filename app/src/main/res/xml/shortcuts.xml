@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="main_calculator"
+        android:enabled="true"
+        android:icon="@drawable/ic_widget_calc"
+        android:shortcutShortLabel="@string/shortcut_calc_short"
+        android:shortcutLongLabel="@string/shortcut_calc_long">
+        <intent
+            android:action="com.example.ACTION_OPEN_CALCULATOR"
+            android:targetPackage="com.aistudio.khatabook.rtlmgr"
+            android:targetClass="com.example.MainActivity">
+            <extra android:name="OPEN_TAB" android:value="calculator" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

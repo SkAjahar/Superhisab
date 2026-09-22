@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Super Hisab</string>
+    <string name="widget_calc_title">Super Hisab Calculator</string>
+    <string name="widget_calc_description">Direct 1-tap access to Super Hisab Calculator for fast billing and credit entries.</string>
+    <string name="shortcut_calc_short">Calculator</string>
+    <string name="shortcut_calc_long">Open Super Hisab Calculator</string>
+</resources>
+

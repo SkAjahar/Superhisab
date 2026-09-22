@@ -1,0 +1,58 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Background Rounded Square Base -->
+    <path
+        android:fillColor="#091410"
+        android:pathData="M10,4 L38,4 A6,6 0 0,1 44,10 L44,38 A6,6 0 0,1 38,44 L10,44 A6,6 0 0,1 4,38 L4,10 A6,6 0 0,1 10,4 Z" />
+
+    <!-- Emerald Border -->
+    <path
+        android:strokeColor="#059669"
+        android:strokeWidth="1.5"
+        android:pathData="M10,4 L38,4 A6,6 0 0,1 44,10 L44,38 A6,6 0 0,1 38,44 L10,44 A6,6 0 0,1 4,38 L4,10 A6,6 0 0,1 10,4 Z" />
+
+    <!-- Calculator Display Screen -->
+    <path
+        android:fillColor="#042F2E"
+        android:strokeColor="#10B981"
+        android:strokeWidth="1"
+        android:pathData="M9,9 L39,9 A3,3 0 0,1 42,12 L42,19 A3,3 0 0,1 39,22 L9,22 A3,3 0 0,1 6,19 L6,12 A3,3 0 0,1 9,9 Z" />
+
+    <!-- Display Text Line (Gold / Emerald) -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M26,14 L38,14 A1.5,1.5 0 0,1 39.5,15.5 A1.5,1.5 0 0,1 38,17 L26,17 A1.5,1.5 0 0,1 24.5,15.5 A1.5,1.5 0 0,1 26,14 Z" />
+
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M10,14 L18,14 A1.5,1.5 0 0,1 19.5,15.5 A1.5,1.5 0 0,1 18,17 L10,17 A1.5,1.5 0 0,1 8.5,15.5 A1.5,1.5 0 0,1 10,14 Z" />
+
+    <!-- Keypad Keys - Row 1 -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M9,25 L15,25 A2,2 0 0,1 17,27 L17,29 A2,2 0 0,1 15,31 L9,31 A2,2 0 0,1 7,29 L7,27 A2,2 0 0,1 9,25 Z" />
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M21,25 L27,25 A2,2 0 0,1 29,27 L29,29 A2,2 0 0,1 27,31 L21,31 A2,2 0 0,1 19,29 L19,27 A2,2 0 0,1 21,25 Z" />
+    <!-- Multiply / Operation key (Amber) -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M33,25 L39,25 A2,2 0 0,1 41,27 L41,29 A2,2 0 0,1 39,31 L33,31 A2,2 0 0,1 31,29 L31,27 A2,2 0 0,1 33,25 Z" />
+
+    <!-- Keypad Keys - Row 2 -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M9,34 L15,34 A2,2 0 0,1 17,36 L17,38 A2,2 0 0,1 15,40 L9,40 A2,2 0 0,1 7,38 L7,36 A2,2 0 0,1 9,34 Z" />
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M21,34 L27,34 A2,2 0 0,1 29,36 L29,38 A2,2 0 0,1 27,40 L21,40 A2,2 0 0,1 19,38 L19,36 A2,2 0 0,1 21,34 Z" />
+    <!-- Equals / Book key (Emerald) -->
+    <path
+        android:fillColor="#059669"
+        android:pathData="M33,34 L39,34 A2,2 0 0,1 41,36 L41,38 A2,2 0 0,1 39,40 L33,40 A2,2 0 0,1 31,38 L31,36 A2,2 0 0,1 33,34 Z" />
+
+</vector>
